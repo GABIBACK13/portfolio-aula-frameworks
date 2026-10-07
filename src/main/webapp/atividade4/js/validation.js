@@ -26,7 +26,6 @@
     });
 
     $("#form-cadastro").on("submit", function (event) {
-        event.preventDefault();
         var ok = true;
         $("#form-cadastro input[required]").each(function () {
             if (!validateField($(this))) {
@@ -34,11 +33,7 @@
             }
         });
         if (!ok) {
-            $("#form-success").addClass("d-none").text("");
-            return;
+            event.preventDefault();
         }
-        $("#form-success")
-            .removeClass("d-none")
-            .text("Formulário válido. Cadastro pronto para envio.");
     });
 })(jQuery);

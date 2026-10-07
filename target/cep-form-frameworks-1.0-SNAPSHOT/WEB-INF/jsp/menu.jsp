@@ -18,6 +18,8 @@
                     <a class="nav-link" href="${pageContext.request.contextPath}/atividade2/index.html">Atividade 2</a>
                     <a class="nav-link" href="${pageContext.request.contextPath}/cadastro.htm">Atividade 3</a>
                     <a class="nav-link" href="${pageContext.request.contextPath}/atividade4/index.html">Atividade 4</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/cadastros.htm">Lista A3</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/clientes.htm">Lista A4</a>
                 </div>
             </div>
         </nav>

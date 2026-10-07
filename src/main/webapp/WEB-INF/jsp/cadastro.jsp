@@ -1,5 +1,4 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -19,14 +18,15 @@
                     <a class="nav-link" href="${pageContext.request.contextPath}/atividade2/index.html">Atividade 2</a>
                     <a class="nav-link active" href="${pageContext.request.contextPath}/cadastro.htm">Atividade 3</a>
                     <a class="nav-link" href="${pageContext.request.contextPath}/atividade4/index.html">Atividade 4</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/cadastros.htm">Lista A3</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/clientes.htm">Lista A4</a>
                 </div>
             </div>
         </nav>
         <main class="container">
             <h1 class="page-title">Formulário de Cadastro</h1>
-            <c:if test="${not empty mensagem}">
-                <div class="alert alert-success border" role="alert">${mensagem}</div>
-            </c:if>
+            <p class="text-muted">Ao cadastrar, os dados são salvos no SQLite e você é redirecionado para a listagem.</p>
+            <p id="cep-msg" class="text-danger mb-3" hidden></p>
             <form class="row g-3" method="post" action="${pageContext.request.contextPath}/cadastro.htm">
                 <div class="col-md-6">
                     <label for="nome" class="form-label">Nome</label>
@@ -78,5 +78,6 @@
                 </div>
             </form>
         </main>
+        <script src="${pageContext.request.contextPath}/js/viacep.js"></script>
     </body>
 </html>

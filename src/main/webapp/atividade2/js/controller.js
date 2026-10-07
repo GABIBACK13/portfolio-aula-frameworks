@@ -29,7 +29,7 @@
             showMessage("");
             return;
         }
-
+//aqui que eu faço as chamadas para a API de cep para preencher os outros campos: estou utilizando fetchAPI
         fetch("https://viacep.com.br/ws/" + cep + "/json/")
             .then(function (response) {
                 return response.json();

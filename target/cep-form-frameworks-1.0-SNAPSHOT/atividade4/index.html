@@ -19,12 +19,15 @@
                     <a class="nav-link" href="../atividade2/index.html">Atividade 2</a>
                     <a class="nav-link" href="../cadastro.htm">Atividade 3</a>
                     <a class="nav-link active" href="index.html">Atividade 4</a>
+                    <a class="nav-link" href="../cadastros.htm">Lista A3</a>
+                    <a class="nav-link" href="../clientes.htm">Lista A4</a>
                 </div>
             </div>
         </nav>
         <main class="container">
             <h1 class="page-title">Cadastro de Cliente</h1>
-            <form class="row g-3" id="form-cadastro" novalidate>
+            <p class="text-muted">Após validação no navegador, o formulário é enviado ao Spring MVC para persistência no SQLite.</p>
+            <form class="row g-3" id="form-cadastro" method="post" action="../cliente.htm" novalidate>
                 <div class="col-md-6">
                     <label for="nome" class="form-label">Nome</label>
                     <input type="text" class="form-control" id="nome" name="nome" required>
@@ -82,7 +85,6 @@
                     <input type="text" class="form-control" id="complemento" name="complemento">
                 </div>
                 <div class="col-12">
-                    <p id="form-success" class="alert alert-success border d-none" role="alert"></p>
                     <button type="submit" class="btn btn-primary">Cadastrar</button>
                 </div>
             </form>

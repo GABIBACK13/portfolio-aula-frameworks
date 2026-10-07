@@ -1,1 +1,13 @@
 /var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/AppController.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/config/DatabaseSchemaInitializer.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/config/HibernateConfig.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/config/SQLiteDialect.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/config/SQLiteIdentityColumnSupport.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/dao/CadastroClienteDao.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/dao/CadastroUsuarioDao.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/model/CadastroCliente.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/model/CadastroUsuario.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/model/DadosCadastro.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/web/CadastroController.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/web/CadastroFormMapper.java
+/var/home/back/git/projects/FACULDADE/S6D2-FRAMEWORKS/cep-form-frameworks/src/main/java/com/mycompany/cep/form/frameworks/web/ClienteController.java
